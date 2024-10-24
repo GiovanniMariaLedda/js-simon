@@ -23,11 +23,32 @@ console.log('JS OK');
 // 
 
 //! Elaborazione 
-// Generatore di numeri casuali da 0 a 99
-const CasualNumbers = Math.random() * 99 ;
-// variabile che arrotonda per eccesso
-const intNum = Math.ceil(CasualNumbers);
-console.log(intNum)
+// Generatore1 di numeri casuali da 0 a 99
+const numbersGenerator1 = Math.random() * 99 ;
+// Generatore2 di numeri casuali da 0 a 99
+const numbersGenerator2 = Math.random() * 99 ;
+// Generatore3 di numeri casuali da 0 a 99
+const numbersGenerator3 = Math.random() * 99 ;
+// Generatore4 di numeri casuali da 0 a 99
+const numbersGenerator4 = Math.random() * 99 ;
+// Generatore5 di numeri casuali da 0 a 99
+const numbersGenerator5 = Math.random() * 99 ;
+
+// variabile1 che arrotonda per eccesso
+const intNum1 = Math.ceil(numbersGenerator1);
+console.log(intNum1)
+// variabile2 che arrotonda per eccesso
+const intNum2 = Math.ceil(numbersGenerator1);
+console.log(intNum2)
+// variabile3 che arrotonda per eccesso
+const intNum3 = Math.ceil(numbersGenerator1);
+console.log(intNum3)
+// variabile4 che arrotonda per eccesso
+const intNum4 = Math.ceil(numbersGenerator1);
+console.log(intNum4)
+// variabile5 che arrotonda per eccesso
+const intNum5 = Math.ceil(numbersGenerator1);
+console.log(intNum5)
 
 // Prompt per chiedere i numeri all'utente 
 prompt('inserisci un numero da 0 a 99 ')
