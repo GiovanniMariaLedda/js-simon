@@ -53,6 +53,9 @@ console.log('JS OK');
 // // Prompt per chiedere i numeri all'utente 
 // // prompt('inserisci un numero da 0 a 99 ')
 
+const = []
+
+
 // Ciclo for
 for (let i = 0; i <5; i++){
     const numbersGenerator = Math.random() * 99 ;
