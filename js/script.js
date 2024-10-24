@@ -19,7 +19,15 @@ console.log('JS OK');
 // Immaginate la logica come fosse uno snack: "Dati 2 array di numeri, indica quali e quanti numeri ci sono in comune tra i due array"
 
 //! Raccolta Dati
+//  
+// 
 
 //! Elaborazione 
+// Generatore di numeri casuali da 0 a 1000
+const CasualNumbers = Math.random() * 1000;
+// variabile che arrotonda per eccesso
+const intNum = Math.ceil(CasualNumbers);
+console.log(intNum)
+
 
 //! Output
