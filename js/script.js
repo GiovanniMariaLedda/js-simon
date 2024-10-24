@@ -38,16 +38,16 @@ const numbersGenerator5 = Math.random() * 99 ;
 const intNum1 = Math.ceil(numbersGenerator1);
 console.log(intNum1)
 // variabile2 che arrotonda per eccesso
-const intNum2 = Math.ceil(numbersGenerator1);
+const intNum2 = Math.ceil(numbersGenerator2);
 console.log(intNum2)
 // variabile3 che arrotonda per eccesso
-const intNum3 = Math.ceil(numbersGenerator1);
+const intNum3 = Math.ceil(numbersGenerator3);
 console.log(intNum3)
 // variabile4 che arrotonda per eccesso
-const intNum4 = Math.ceil(numbersGenerator1);
+const intNum4 = Math.ceil(numbersGenerator4);
 console.log(intNum4)
 // variabile5 che arrotonda per eccesso
-const intNum5 = Math.ceil(numbersGenerator1);
+const intNum5 = Math.ceil(numbersGenerator5);
 console.log(intNum5)
 
 // Prompt per chiedere i numeri all'utente 
